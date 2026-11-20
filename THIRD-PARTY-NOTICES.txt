@@ -1,0 +1,22 @@
+OCR models
+----------
+The embedded text-detection.onnx and text-recognition.onnx models are published
+by the ocrs-models project:
+https://github.com/robertknight/ocrs-models
+
+The project states that its models are trained exclusively on open datasets,
+including HierText, licensed under Creative Commons Attribution-ShareAlike 4.0
+International (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+
+The ocrs Rust engine is licensed under MIT OR Apache-2.0:
+https://github.com/robertknight/ocrs
+
+PDFium
+------
+The executable embeds PDFium via pdfium-bundled. PDFium is distributed by the
+pdfium-binaries project:
+https://github.com/bblanchon/pdfium-binaries
+
+PDFium's license and notices are available from:
+https://pdfium.googlesource.com/pdfium/+/refs/heads/main/LICENSE
